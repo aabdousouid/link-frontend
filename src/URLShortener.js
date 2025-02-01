@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-const API_BASE_URL = "http://localhost:5000/api/url"; // Update with your backend URL
-
+//const API_BASE_URL = "http://localhost:5000/api/url"; // Update with your backend URL
+const API_BASE_URL = "https://linkk-p590.onrender.com"
 function URLShortener() {
   const [longUrl, setLongUrl] = useState("");
   const [shortUrls, setShortUrls] = useState([]);
